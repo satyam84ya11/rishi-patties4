@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">Rishi Patties</div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="admin.html">Admin</a>
+</nav>
+</header>
+
+<section class="menu-section">
+<h2>All Products</h2>
+<div id="product-list" class="menu-grid"></div>
+</section>
+
+<script src="products.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', loadProducts);
+</script>
+</body>
+</html>

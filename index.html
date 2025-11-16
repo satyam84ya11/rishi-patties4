@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rishi Patties</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">Rishi Patties</div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="admin.html">Admin</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Welcome to <span>Rishi Patties</span></h1>
+<p>Fresh & crispy patties and fast food.</p>
+<a href="menu.html" class="btn primary">View Menu</a>
+<a href="https://wa.me/919999999999" class="btn secondary" target="_blank">Order on WhatsApp</a>
+</div>
+</section>
+
+<section class="menu-section">
+<h2>Our Bestsellers</h2>
+<div id="product-list" class="menu-grid"></div>
+</section>
+
+<script src="products.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', loadProducts);
+</script>
+</body>
+</html>

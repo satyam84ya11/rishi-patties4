@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="admin-box">
+<h2>Admin Login</h2>
+<input id="adminUser" placeholder="Username">
+<input id="adminPass" type="password" placeholder="Password">
+<button onclick="adminLogin()">Login</button>
+
+<div id="adminPanel" style="display:none;">
+<h2>Manage Products</h2>
+
+<h3>Add Product</h3>
+<input id="pname" placeholder="Product Name">
+<input id="pprice" placeholder="Price">
+<button onclick="addProduct()">Add Product</button>
+
+<h3>Change Password</h3>
+<input id="newUser" placeholder="New Username">
+<input id="newPass" placeholder="New Password">
+<button onclick="changePassword()">Update Login</button>
+
+<h3>Products List</h3>
+<div id="adminProducts"></div>
+</div>
+</section>
+
+<script src="admin.js"></script>
+<script src="products.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+body{margin:0;font-family:Poppins,sans-serif;}
+.navbar{padding:15px;background:#0009;color:#fff;position:fixed;width:100%;top:0;display:flex;justify-content:space-between;}
+.nav-links a{color:#fff;margin-left:20px;text-decoration:none;}
+.hero{height:60vh;background:url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1600') center/cover no-repeat;display:flex;align-items:center;justify-content:center;color:#fff;margin-top:60px;text-shadow:0 3px 10px #000;}
+.menu-section{padding:40px;margin-top:40px;}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;}
+.menu-item{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 6px #0002;}
+.admin-box{padding:40px;max-width:400px;margin:auto;margin-top:60px;}
+input,button{display:block;width:100%;padding:10px;margin:10px 0;}
